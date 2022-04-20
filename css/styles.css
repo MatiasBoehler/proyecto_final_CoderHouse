@@ -1,0 +1,294 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: #003399;
+    height: auto;
+}
+
+.headerLogo {
+    width: 40%;
+    padding: 1rem;
+}
+
+@media (min-width: 992px) {
+    .headerLogo {
+        width: 50%;
+    }
+}
+
+li {
+    padding: .5rem;
+    margin: auto;
+}
+
+li:hover {
+    background-color: black;
+}
+
+#menu {
+    color: white;
+}
+
+.card-img-top {
+    max-width: 100%;
+}
+
+h2 {
+    font-size: 20px;
+    text-align: center;
+    margin: 1.5rem;
+    color: #003399;
+}
+
+@media (min-width: 992px) {
+    h2 {
+        font-size: 24px;
+    }
+}
+
+h3 {
+    margin: 1rem 0;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+@media (min-width: 992px) {
+    h5 {
+        font-size: 18px;
+    }
+}
+
+.card {
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+.category {
+    background-color: green;
+    color: white;
+    padding: .7rem;
+    margin: .5rem 0;
+    text-decoration: none;
+}
+
+.category:hover {
+    background-color:#003399;
+    color: white;
+}
+
+.card-title:hover {
+    color: #003399;
+}
+
+.photo {
+    max-width: 100%;
+}
+
+.ad {
+    max-width: 100%;
+    margin: 1rem;
+}
+
+.card-group {
+    margin: 1rem;
+}
+
+footer {
+    grid-area: footer;
+    display: block;
+    justify-content: center;
+    background-color: #003399;
+    height: 6rem;
+    padding: 1rem;
+}
+
+footer p {
+    font-size: 90%;
+    color: white;
+    text-align: center;
+}
+
+@media (min-width: 992px) {
+    footer p {
+        font-size: 100%;
+    }
+}
+
+.footerSocialMedia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.footerIcon {
+    height: 20px;
+} 
+
+@keyframes animation {
+    0% {height: 20px;}
+    50% {height: 30px;}
+    100% {height: 20px;} 
+}
+
+.footerIcon:hover {
+    display: flex;
+    justify-content: center;
+    animation-name: animation;
+    animation-iteration-count: 1s;
+    animation-timing-function: ease-in;
+    animation-duration: 1s;
+}
+
+/* *{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+#grid {
+    grid-template-areas:
+                        "header"
+                        "galery"
+                        "footer";
+}
+
+header {
+    grid-area: "header";
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #003399;
+    height: auto;
+}
+
+.headerLogo {
+    width: 30%;
+    padding: 1rem;
+}
+
+@media (min-width: 600px) {
+    .headerLogo {
+        width: 40%;
+    }
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: flex;
+    font-weight: bold;
+    padding: 1rem;
+    margin: 0 1rem;
+}
+
+li:hover {
+    background-color: black;
+}
+
+.menuHeader {
+    display: flex;
+    justify-content: center;
+    background-color: #2792D0;
+    height: 4rem;
+}
+
+.menu {
+    color: white;
+    font-size: 12px;
+}
+
+@media (min-width: 600px) {
+    .menu {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 900px) {
+    .menu {
+        font-size: 16px;
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 25px;
+    text-align: center;
+    margin: 2rem;
+}
+
+@media (min-width: 600px) {
+    h1 {
+        font-size: 30px;
+    }
+}
+
+#galery {
+    display: flex;
+    grid-area: galery;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+@media (min-width: 600px) {
+    #galery {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(2, 300px);
+        grid-template-rows: repeat(3, 250px);
+        column-gap: 20px;
+        row-gap: 20px;
+    }
+}
+
+@media (min-width: 900px) {
+    #galery {
+        display: grid;
+        grid-template-columns: repeat(3, 300px);
+        grid-template-rows: repeat(2, 250px);
+        column-gap: 20px;
+        row-gap: 20px;
+    }
+}
+
+.album {
+    border: solid 1px black;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 0%;
+
+}
+
+.albumCover {
+    max-width: 100%;
+}
+
+.subtitleAlbum {
+    font-size: 16px;
+    text-align: center;
+}
+
+@media (min-width: 900px) {
+    .subtitleAlbum {
+        font-size: 18px;
+    }
+}
+*/
